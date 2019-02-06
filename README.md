@@ -16,21 +16,35 @@ single floating8point value.  For example, we would expect the following expect 
 indicated output:  
  
 Input:
+
 3 2
+
 A2
+
 4 5 *
+
 A1
+
 A1 B2 / 2 +
+
 3
+
 39 B1 B2 * /
 
 Output 
+
 3 2
+
 20.0000
+
 20.0000
+
 20.0000
+
 8.66667
+
 3.00000
+
 1.50000
 
 Program should detect cyclic
